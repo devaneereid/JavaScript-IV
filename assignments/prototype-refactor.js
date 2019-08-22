@@ -51,7 +51,7 @@ CharacterStats.prototype = Object.create(GameObject.prototype);
   * should inherit takeDamage() from CharacterStats
 */
 class Humanoid extends CharacterStats {
-    constructor(humanAttrs) {
+    constructor(humanAttrs){
         super(humanAttrs);
         this.newTeam = humanAttrs.team;
         this.newWeapons = humanAttrs.weapons;
