@@ -12,15 +12,43 @@ class Person {
 }
 class Instructor {
     constructor(instructorAttrs){
-        super(instructorAttrs)
+        super(instructorAttrs);
         this.newSpecialty = instructorAttrs.specialty;
-        this.newFavLanguage = instructorAttrs.favLanguage'
-        this.newCatchPhrase = instructorAttrs.catchPhrase'
+        this.newFavLanguage = instructorAttrs.favLanguage;
+        this.newCatchPhrase = instructorAttrs.catchPhrase;
     }
-    demo(){
+    demo(subject){
         `Today we are learning about ${this.subject}.`;
     }
-    grade(){
-        
+    grade(student, subject){
+        `${this.name} receives a perfect score on ${this.subject}.`;
     }
 }
+class Student {
+    constructor(studentAttrs){
+        super(studentAttrs);
+        this.newPreviousBackground = studentAttrs.newPreviousBackground;
+        this.newClassName = studentAttrs.className;
+        this.newFavSubjects = studentAttrs.favSubjects;
+    }
+    listsSubject(favSubjects){
+
+    }
+    PRAssignment(){
+        `${student.name} has submitted a PM for ${this.subject};`
+    }
+    sprintChallenge(){
+        `${student.name} has begun sprint challege on ${this.subject};`
+    }
+    
+}  
+class ProjectManager {
+    constructor(pmAttrs){
+    super(pmAttrs);
+    this.newGradClassName = projectmanager.gradClassName;
+    this.newFavInstructor = projectmanager.favInstructor;
+    }
+    standUp(){
+
+    }
+}    
