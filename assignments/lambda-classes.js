@@ -49,6 +49,9 @@ class ProjectManager {
     this.newFavInstructor = projectmanager.favInstructor;
     }
     standUp(){
-
+        `${this.name} announces to ${this.channel}, @channel stand by times.`
+    }
+    debugsCode(){
+        `${this.name} debugs ${student.name}'s code on ${this.subject};`
     }
 }    
